@@ -14,16 +14,25 @@ function genPassword(){
 
     for (let i = 0; i < 15; i++ ) {
             
-            let randomIOne= Math.floor(Math.random()*characters.length)
-            let randomITwo= Math.floor(Math.random()*characters.length)
+        let randomIOne= Math.floor(Math.random()*characters.length)
+        let randomITwo= Math.floor(Math.random()*characters.length)
 
-            pwdOne += characters[randomIOne]
-            pwdTwo += characters[randomITwo]
-        }
+        pwdOne += characters[randomIOne]
+        pwdTwo += characters[randomITwo]
+    }
 
     pwdElOne.textContent = pwdOne
     pwdElTwo.textContent = pwdTwo
 }
 
+function copyPwdOne(){
+    navigator.clipboard.writeText(pwdElOne.textContent)
+    alert("Copied " + " " + pwdElOne.textContent + " "+ " to clipboard")
+}
+
+function copyPwdTwo(){
+    navigator.clipboard.writeText(pwdElTwo.textContent)
+    alert("Copied " + " " + pwdElTwo.textContent + " "+ " to clipboard")
+}
 
 
