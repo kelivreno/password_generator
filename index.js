@@ -9,13 +9,14 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 
 
 function genPassword(){
-    pwdOne= ""
-    pwdTWo= ""
+    let pwdOne= ""
+    let pwdTwo= ""
 
     for (let i = 0; i < 15; i++ ) {
-            randomI= Math.floor(Math.random()*characters.length)
-            pwdOne += characters[randomI]
-            pwdTWo += characters[randomI]
+            randomIOne= Math.floor(Math.random()*characters.length)
+            randomITwo= Math.floor(Math.random()*characters.length)
+            pwdOne += characters[randomIOne]
+            pwdTwo += characters[randomITwo]
         }
 
     pwdElOne.textContent = pwdOne
