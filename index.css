@@ -3,6 +3,11 @@ body {
     background-color: #1C1C1C;
 }
 
+#hero {
+    padding: 100px 100px;
+    margin: 0px auto;
+}
+
 .title {
     font-family: "Karla", sans-serif;
     color: white;
