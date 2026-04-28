@@ -13,8 +13,10 @@ function genPassword(){
     let pwdTwo= ""
 
     for (let i = 0; i < 15; i++ ) {
-            randomIOne= Math.floor(Math.random()*characters.length)
-            randomITwo= Math.floor(Math.random()*characters.length)
+            
+            let randomIOne= Math.floor(Math.random()*characters.length)
+            let randomITwo= Math.floor(Math.random()*characters.length)
+
             pwdOne += characters[randomIOne]
             pwdTwo += characters[randomITwo]
         }
