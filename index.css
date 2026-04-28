@@ -36,8 +36,8 @@ body {
     padding: 9px 17px;
     gap: 12px;
     color: white;
-    width: hug(191px);
-    height: hug(42px);
+    width: 191px;
+    height: 42px;
     margin-top: 40px;
     border-radius: 6px;
     font-size: 16px;
