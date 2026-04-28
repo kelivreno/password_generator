@@ -13,6 +13,6 @@ Used for loops, arrays, onclick function calls, and using the random() and floor
 ## New things I learned here: 
 - `navigator.clipboard.writeText()` - so that a user can copy the text on one of the buttons, 
   - used in index.js, --> navigator.clipboard.writeText(pwdElOne.textContent)
-- alert() - It's the one with a pop up on the page,
-  - [This is how it looked like](images/popup.png)
+- `alert()` - It's the one with a pop up on the page,
+  - ![This is how it looked like](images/popup.png)
   -  Code: `alert("Copied " + " " + pwdElOne.textContent + " "+ " to clipboard")`
